@@ -1467,7 +1467,13 @@ static void setconfig(char *root)
 
 static void setcaption(void)
 {
-  pc_printf("Pawn compiler " VERSION_STR "\t \t \tCopyright (c) 1997-2006, ITB CompuPhase\n\n");
+  pc_printf("Pawn compiler Modded by Nathan " VERSION_STR "\t \t \tCopyright (c) 1997-2006, ITB CompuPhase\n\n");
+  pc_printf("██████╗░░░░░░██╗░█████╗░██╗░░░██╗░█████╗░██╗██████╗░░░░░█████╗░");
+  pc_printf("██╔══██╗░░░░░██║██╔══██╗██║░░░██║██╔══██╗╚═╝╚════██╗░░░██╔══██╗");
+  pc_printf("██║░░██║░░░░░██║███████║╚██╗░██╔╝███████║░░░░░███╔═╝░░░██║░░██║");
+  pc_printf("██║░░██║██╗░░██║██╔══██║░╚████╔╝░██╔══██║░░░██╔══╝░░░░░██║░░██║");
+  pc_printf("██████╔╝╚█████╔╝██║░░██║░░╚██╔╝░░██║░░██║██╗███████╗██╗╚█████╔╝");
+  pc_printf("╚═════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚══════╝╚═╝░╚════╝░");
 }
 
 static void about(void)
